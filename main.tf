@@ -39,7 +39,7 @@ resource "google_container_node_pool" "default" {
   }
 }
 
-resource "google_artifact_registry_repository" "my-repo" {
+resource "google_artifact_registry_repository" "terraform-artifact-registery" {
   provider = google-beta
 
   location = "us-central1"
